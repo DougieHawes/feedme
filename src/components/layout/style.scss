@@ -1,0 +1,28 @@
+.body{
+    .body-options{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
+        min-width: 320px;
+        width: 60%;
+        .body-option {
+            cursor: pointer;
+        }
+    }
+    .body-items{
+        display: flex;
+        height: 80vh;
+        #eatout {
+            background-color: purple;
+        }
+        #food {
+            background-color: green;
+        }
+        #dessert {
+            background-color: gold;
+        }
+        #cocktail {
+            background-color: blue;
+        }
+    }
+}

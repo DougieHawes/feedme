@@ -1,0 +1,37 @@
+.body .body-options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  min-width: 320px;
+  width: 60%;
+}
+
+.body .body-options .body-option {
+  cursor: pointer;
+}
+
+.body .body-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.body .body-items #eatout {
+  background-color: purple;
+}
+
+.body .body-items #food {
+  background-color: green;
+}
+
+.body .body-items #dessert {
+  background-color: gold;
+}
+
+.body .body-items #cocktail {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
